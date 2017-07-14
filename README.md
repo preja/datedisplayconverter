@@ -1,9 +1,10 @@
-Usage:
+Convert date for display and for save in db using separate settings of date format.
+
+<storng>Usage:</strong>
 
 ```php
 public function behaviors() {
         return [
-            TimestampBehavior::className(),
             ['class' => DateConverter::className(),
                 'dateAttributes' =>
                 [
